@@ -1,0 +1,20 @@
+{
+  "name": "fastify-server",
+  "version": "2.0.0",
+  "description": "Test-fastify-server",
+  "author": "rahul2123",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.1.1",
+    "fastify-request-context": "^2.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "rm -rf bin && npm run build && node bin/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.25",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  }
+}
